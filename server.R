@@ -74,7 +74,7 @@ server <- function(input, output) {
             color = "green", width = 3
         )
         
-    })
+    }) 
     
     output$income <- renderValueBox({
         
